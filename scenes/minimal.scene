@@ -46,7 +46,8 @@
     {
       "Id": "6ad70641-3c6c-4402-9c85-9a4969af4764",
       "Name": "Plane",
-      "Scale": "5,5,5",
+      "Position": "0,21.98522,0",
+      "Scale": "11.23098,28.59945,5",
       "Enabled": true,
       "Components": [
         {
@@ -209,11 +210,7 @@
           "IkRightHand": null,
           "LookAt": null,
           "LookAtEnabled": false,
-          "Target": {
-            "_type": "component",
-            "go": "41f7ee9a-5176-456a-8742-883c5ba361ba",
-            "component_type": "SkinnedModelRenderer"
-          }
+          "Target": null
         },
         {
           "__type": "PlayerMovement",
@@ -323,6 +320,84 @@
           "Enabled": true
         }
       ]
+    },
+    {
+      "Id": "fdd12d9b-6f2a-440d-a031-849bf3904a7a",
+      "Name": "Cube",
+      "Position": "-102.7982,183.3494,92.55621",
+      "Scale": "4.883657,1,3.749399",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false,
+          "Surface": null
+        }
+      ]
+    },
+    {
+      "Id": "d19c5260-80bf-46b7-84aa-11860e130d98",
+      "Name": "Cube (3)",
+      "Position": "-102.7982,109.8942,0.6511536",
+      "Scale": "4.883657,1,3.749399",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false,
+          "Surface": null
+        }
+      ]
+    },
+    {
+      "Id": "5a80dafa-85e8-4776-adbb-0b857b7d84fe",
+      "Name": "Cube (4)",
+      "Position": "-287.013,109.8942,-58.59129",
+      "Scale": "1.077071,1,3.749399",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false,
+          "Surface": null
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -348,6 +423,6 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-02-17T23:37:41.0852243-03:00",
+  "LastSaved": "2024-02-17T23:53:42.1504252-03:00",
   "__references": []
 }
